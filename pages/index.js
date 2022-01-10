@@ -4,6 +4,7 @@ import HeaderAsIs from '../components/HeaderAsIs'
 import DemoMainBody from '../components/DemoMainBody'
 import DemoFooter from '../components/DemoFooter'
 import ButtonGroups from '../components/muicomponents/ButtonGroups'
+import ContainedButtons from '../components/muicomponents/ContainedButtons'
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
@@ -41,6 +42,7 @@ export default function Home() {
 
         <ButtonGroups />
 
+        <ContainedButtons />
         
         {/* Footer */}
         <DemoFooter />
