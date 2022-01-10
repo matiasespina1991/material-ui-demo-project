@@ -26,7 +26,7 @@ export default function Header() {
                             {pages.map((page) => (
                                 <Button
                                     key={page}
-                                    sx={{ color: 'white' }}
+                                    sx={{ color: 'white' , m: 1.5 , p: 1.5 , borderRadius: 1.2 }}
                                 >
                                     {page}
                                 </Button>
